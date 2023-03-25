@@ -1,0 +1,121 @@
+public class Main {
+    public static void main(String[] args) {
+        task1();
+        task2();
+        task3();
+        task4();
+        task5();
+        task6();
+        task7();
+        task8();
+    }
+
+    public static void task1() {
+        System.out.println("Задача 1");
+        int total = 1;
+        byte all = 2;
+        short car = 3;
+        long ball = 24;
+        float milk = 25.14f;
+        double ab = 325.455;
+        System.out.println(total);
+        System.out.println(all);
+        System.out.println(ball);
+        System.out.println(milk);
+        System.out.println(ab);
+        System.out.println(car);
+    }
+
+    public static void task2() {
+        System.out.println("Задача 2");
+        byte a = 67;
+        short b = -159;
+        short c = 569;
+        float d = 2.786f;
+        float e = 27.12f;
+        short f = 27897;
+        long k = 987678965549L;
+
+    }
+
+    public static void task3() {
+        System.out.println("Задача 3");
+        int teacher1 = 23;
+        int teacher2 = 27;
+        int teacher3 = 30;
+        int total = teacher1 + teacher2 + teacher3;
+        int tot = 480;
+        int student = tot/total;
+        System.out.println("На каждого ученика рассчитано " + student + " листов бумаги");
+
+    }
+    public static void task4() {
+        System.out.println("Задача 4");
+        int a = 16;
+        int b = 2;
+        int efficiency = a/b;
+        int minut20 = efficiency * 20;
+        System.out.println("За 20 минут машина произвела " + minut20 + " штук бутылок");
+        int day1 = efficiency * 60 * 24;
+        System.out.println("За сутки машина произвела " + day1 + " штук бутылок");
+        int day3 = day1 * 3;
+        System.out.println("За 3 дня машина произвела " + day3 + " штук бутылок");
+        int month = day1 * 31;
+        System.out.println("За 1 месяц машина произвела " + month + " штук бутылок");
+    }
+    public static void task5() {
+        System.out.println("Задача 5");
+        int banok = 120;
+        int white = 2;
+        int brown = 4;
+        int classov = banok/(white + brown);
+        int whiten = classov * white;
+        int brownn = classov * brown;
+        System.out.println("В школе, где " + classov + " классов, нужно " + whiten + " банок белой краски и " + brownn + " банок коричневой краски");
+    }
+    public static void task6() {
+        System.out.println("Задача 6");
+        short banan = 80 * 5;
+        short milk = 105 * 2;
+        short ice = 100 * 2;
+        short egg = 70 * 4;
+        float total = banan + milk + egg + ice;
+        float totalkg = total/1000;
+        System.out.println("Вес завтрака " + total + " грамм");
+        System.out.println("Вес завтрака " + totalkg + " килограмм");
+    }
+    public static void task7() {
+        System.out.println("Задача 7");
+        short lose1 = 250;
+        short lose2 = 500;
+        short weight = 7000;
+        int day250 = weight/lose1;
+        int day500 = weight/lose2;
+        int average = (day250 + day500)/2;
+        System.out.println("может потребоваться " + average + " дней в среднем, чтобы добиться результата похудения");
+
+    }
+    public static void task8() {
+        System.out.println("Задача 8");
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+        double masha10 = masha * 1.1;
+        double denis10 = denis * 1.1;
+        double kristina10 = kristina * 1.1;
+        int mashayear = masha * 12;
+        int denisyear = denis * 12;
+        int kristinayear = kristina * 12;
+        double masha10year = masha10 * 12;
+        double denis10year = denis10 * 12;
+        double krisyina10year = kristina10 * 12;
+        double mashaincreased = masha10year - mashayear;
+        double denisincreased = denis10year - denisyear;
+        double kristinaincreased = krisyina10year - kristinayear;
+        System.out.println("Маша теперь получает " + masha10 + " рублей. Годовой доход вырос на " + mashaincreased + " рублей");
+        System.out.println("Денис теперь получает " + denis10 + " рублей. Годовой доход вырос на " + denisincreased + " рублей");
+        System.out.println("Кристина теперь получает " + kristina10 + " рублей. Годовой доход вырос на " + kristinaincreased + " рублей");
+
+    }
+}
+
